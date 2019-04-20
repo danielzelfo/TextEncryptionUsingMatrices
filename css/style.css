@@ -1,0 +1,20 @@
+html{
+  background-color: lightgrey;
+}
+#output {
+  background-color: rgba(255,255,255,.75);
+  position: relative;
+  top: -10px;
+}
+#comp{
+  position: absolute;
+  left:2;
+  top: 0;
+  font-size: 10px;
+  opacity: .75;
+}
+h1{
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+}
