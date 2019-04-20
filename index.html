@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+		<meta charset="UTF-8">
+		<title>Text Encryption Using Matrices</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h1>Text Encryptor</h1>
+		<center>
+			<hr>
+			<input type="text" id="target_en" placeholder="Message To Encrypt"><button id="done_en">Go</button> OR <input type="text" id="target_de" placeholder="Message To Decrypt"><button id="done_de">Go</button><br />
+			<hr>
+			<input type="password" id="depass" placeholder="passcode">
+		</center>
+		<div id="output">
+			<p id="targetconv"></p>
+			<p><u>Decode Passcode:</u> <span id="passcode"></span></p>
+			<p><u>Decoded Message:</u> <span id="decoded"></span></p>
+		</div>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+		<script  src="js/index.js"></script>
+	</body>
+</html>
